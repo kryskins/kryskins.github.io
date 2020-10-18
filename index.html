@@ -10,10 +10,63 @@
         
         .in {
             width: 40%;
-            margin-top: 6%;
+            margin-top: 80px;
+            vertical-align: 100px;
             position: relative;
             animation: Appearance 3s linear;
-            margin-left: 5%
+            margin-left: 8%
+        }
+        
+        .tx {
+            width: 40%;
+            margin-top: 80px;
+            float: right;
+            animation: Appearancer 3s linear;
+            margin-right: 8%;
+        }
+        
+        @-webkit-keyframes Appearancer {
+            0% {
+                opacity: 0;
+                margin-right: 0%
+            }
+            100% {
+                opacity: 1;
+                margin-right: 8%
+            }
+        }
+        
+        @-o-keyframes Appearancer {
+            0% {
+                opacity: 0;
+                margin-right: 0%
+            }
+            100% {
+                opacity: 1;
+                margin-right: 8%
+            }
+        }
+        
+        @-moz-keyframes Appearancer {
+            0% {
+                opacity: 0;
+                margin-right: 0%
+            }
+            100% {
+                opacity: 1;
+                margin-right: 8%
+            }
+        }
+        
+        @keyframes Appearancer {
+            0% {
+                opacity: 0;
+                margin-right: 0%
+            }
+            100% {
+                opacity: 1;
+                margin-right: 8%
+            }
         }
         
         @-webkit-keyframes Appearance {
@@ -23,7 +76,7 @@
             }
             100% {
                 opacity: 1;
-                margin-left: 5%
+                margin-left: 8%
             }
         }
         
@@ -34,7 +87,7 @@
             }
             100% {
                 opacity: 1;
-                margin-left: 5%
+                margin-left: 8%
             }
         }
         
@@ -45,7 +98,7 @@
             }
             100% {
                 opacity: 1;
-                margin-left: 5%
+                margin-left: 8%
             }
         }
         
@@ -56,7 +109,7 @@
             }
             100% {
                 opacity: 1;
-                margin-left: 5%
+                margin-left: 8%
             }
         }
     </style>
@@ -65,8 +118,9 @@
 </head>
 
 <body>
-    <div class="header">
-        <img class="in" id="prtr1" src="photo.png" alt="">
+    <div>
+        <img class="in" id="prtr1" src="photo.svg" alt="">
+        <img class="tx" id="text1" src="verkh.png" alt="">
     </div>
 </body>
 
