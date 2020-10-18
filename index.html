@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style>
+        body {
+            background: #e3e3e3;
+        }
+        
+        .in {
+            width: 30%;
+            left: 35%;
+            margin-top: 10%;
+            position: relative;
+            animation-name: Appearance;
+            animation-duration: 4s;
+        }
+        
+        @-webkit-keyframes Appearance {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        
+        @-o-keyframes Appearance {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        
+        @-moz-keyframes Appearance {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        
+        @keyframes Appearance {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+    </style>
+    <script>
+        setTimeout(function() {
+            document.getElementById("ing1").remove();
+        }, 4000);
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <img class="in" id="ing1" src="elka.svg" alt="">
+    </div>
+</body>
+
+</html>
